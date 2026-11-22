@@ -1,0 +1,37 @@
+[
+  {
+    "provider": "GTBank",
+    "text": "GTBank: You have been credited NGN 25,500.00. Ref: DEMOGT123456.",
+    "expected": { "amountNaira": 25500, "direction": "credit", "bank": "GTBank", "reference": "DEMOGT123456" }
+  },
+  {
+    "provider": "Access Bank",
+    "text": "Access Bank: Your account has been debited N 4,250.00. Transaction ID: DEMOAC123456.",
+    "expected": { "amountNaira": 4250, "direction": "debit", "bank": "Access Bank", "reference": "DEMOAC123456" }
+  },
+  {
+    "provider": "UBA",
+    "text": "UBA: Account credited with NGN 8,000.00. Ref: DEMOUBA12345.",
+    "expected": { "amountNaira": 8000, "direction": "credit", "bank": "United Bank for Africa", "reference": "DEMOUBA12345" }
+  },
+  {
+    "provider": "Zenith Bank",
+    "text": "Zenith Bank: NGN 1,500.00 has been debited from your account. Ref: DEMOZN123456.",
+    "expected": { "amountNaira": 1500, "direction": "debit", "bank": "Zenith Bank", "reference": "DEMOZN123456" }
+  },
+  {
+    "provider": "OPay",
+    "text": "OPay: You received NGN 12,000.00. Transaction reference: DEMOOP123456.",
+    "expected": { "amountNaira": 12000, "direction": "credit", "bank": "OPay", "reference": "DEMOOP123456" }
+  },
+  {
+    "provider": "Moniepoint",
+    "text": "Moniepoint: Your account has been credited N 3,750.00. Session ID: DEMOMP123456.",
+    "expected": { "amountNaira": 3750, "direction": "credit", "bank": "Moniepoint", "reference": "DEMOMP123456" }
+  },
+  {
+    "provider": "PalmPay",
+    "text": "PalmPay: NGN 900.00 sent successfully. Ref: DEMOPP123456.",
+    "expected": { "amountNaira": 900, "direction": "debit", "bank": "PalmPay", "reference": "DEMOPP123456" }
+  }
+]
