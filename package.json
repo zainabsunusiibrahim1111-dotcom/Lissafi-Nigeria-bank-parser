@@ -1,0 +1,15 @@
+{
+  "name": "lissafi-nigeria-bank-parser",
+  "version": "0.1.0",
+  "description": "A small, provider-neutral toolkit for parsing synthetic Nigerian bank transaction notification text.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "Apache-2.0"
+}
