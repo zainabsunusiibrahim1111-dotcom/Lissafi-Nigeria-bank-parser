@@ -12,7 +12,7 @@
   {
     "provider": "UBA",
     "text": "UBA: Account credited with NGN 8,000.00. Ref: DEMOUBA12345.",
-    "expected": { "amountNaira": 8000, "direction": "credit", "bank": "United Bank for Africa", "reference": "DEMOUBA12345" }
+    "expected": { "amountNaira": 8000, "direction": "credit", "bank": "UBA", "reference": "DEMOUBA12345" }
   },
   {
     "provider": "Zenith Bank",
