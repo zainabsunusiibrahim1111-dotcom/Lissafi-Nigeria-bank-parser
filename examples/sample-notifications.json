@@ -1,0 +1,10 @@
+[
+  {
+    "description": "Synthetic credit alert",
+    "text": "GTBank: You have been credited NGN 25,500.00. Ref: DEMO123456."
+  },
+  {
+    "description": "Synthetic debit alert",
+    "text": "Zenith Bank: Your account has been debited N 4,200.00. Transaction ID: DEMO987654."
+  }
+]
