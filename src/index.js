@@ -10,7 +10,7 @@ const AMOUNT_PATTERNS = [
   /(?:debited|credited|received|paid|payment of)\s+(?:NGN|N)?\s?([\d,]+(?:\.\d{1,2})?)/i
 ];
 const REFERENCE_PATTERNS = [
-  /(?:ref(?:erence)?|session|transaction)\s*(?:no|number|id|:|#)?\s*[:#-]?\s*([A-Z0-9/-]{5,})/i
+  /(?:ref(?:erence)?|session(?:\\s*(?:id|no|number))?|transaction(?:\\s*(?:ref(?:erence)?|id|no|number))?)\\s*[:#-]?\\s*([A-Z0-9/-]{5,})/i
 ];
 const BANK_NAMES = [
   "Access Bank", "GTBank", "Guaranty Trust Bank", "First Bank",
